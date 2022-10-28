@@ -1,0 +1,41 @@
+body {
+  background-color: #90caf9;
+  margin: 2rem 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  text-shadow: 5px 5px 10px white;
+  font-size: 4rem;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+}
+
+img {
+  width: 24%;
+  border-radius: 24px;
+  margin: 0px auto;
+}
+
+.content {
+  border-radius: 24px;
+  background-color: #ffffff50;
+  padding: 24px 24px;
+  margin: 12px;
+  margin-top: 24px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
